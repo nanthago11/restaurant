@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+      <meta name="description" content="">
+      <meta name="author" content="">
+      <title>Welcome to Casmia Restaraunt</title>
+      <!-- CSS -->
+      <link rel="stylesheet" href="http://cdn.jsdelivr.net/alertifyjs/1.10.0/css/alertify.min.css"/>
+      <link rel="stylesheet" href="http://cdn.jsdelivr.net/alertifyjs/1.10.0/css/themes/default.min.css"/>
+      <link rel="stylesheet" href="http://cdn.jsdelivr.net/alertifyjs/1.10.0/css/themes/semantic.min.css"/>
+      <link rel="stylesheet" href="http://cdn.jsdelivr.net/alertifyjs/1.10.0/css/themes/bootstrap.min.css"/>
+      <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+      <!-- custom css -->
+	  <link href="css/main.css" rel="stylesheet">
+      <link href="css/foodCategory.css" rel="stylesheet">
+      <style>
+      </style>
+   </head>
+   <body>
+      <!-- Navigation bar -->
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+         <div class="container">
+            <a class="navbar-brand" href="index.html">CASMIA RESTAURANT</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+               <ul class="navbar-nav ml-auto">
+                  <li class="nav-item active">
+                     <a class="nav-link" href="index.html">Home
+                     <span class="sr-only">(current)</span>
+                     </a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link" href="foodCategory.html">Food Catalog</a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link" href="contactus.html">Contact</a>
+                  </li>
+                  <li class="nav-item loginuser dropdown ">
+                     <a class="nav-link dropdown-toggle" href="#" id="username"  data-toggle="dropdown"></a>
+                     <span class="caret"></span></a>
+                     <ul class="dropdown-menu">
+                        <li><a href="#" onclick="logout()">Logout</a></li>
+                     </ul>
+                  </li>
+               </ul>
+            </div>
+         </div>
+      </nav>
+      <!-- Header Image -->
+      <header class="header">
+         <div class="container">
+            <div class="row">
+               <div class="col-lg-12">
+                  <h1 class="display-3 text-center text-white">Healthy Food Resta</h1>
+               </div>
+            </div>
+         </div>
+      </header>
+      <!-- Body Content -->
+	  <!-- Container Start -->
+      <div class="container bodycontainer">
+         <h2>Our Specials Foods</h2>
+         <hr>
+         <div class="row">
+            <div class="col-sm-4 my-4">
+               <div class="card">
+                  <img class="card-img-top" src="https://www.chefmavro.com/wp-content/uploads/2015/11/Best_001.jpg" alt="">
+                  <div class="card-body">
+                     <h4 class="card-title">Asparagus <span class="badge badge-secondary">€20.20</span></h4>
+                     <p class="card-text">Asparagus, or garden asparagus, folk name sparrow grass, scientific name Asparagus officinalis, is a spring vegetable, a flowering perennial plant species in the genus Asparagus.</p>
+                  </div>
+                  <div class="card-footer">
+                     <a href="#" class="btn btn-success" onclick="placeorder()">Place my order</a>
+                  </div>
+               </div>
+            </div>
+            <div class="col-sm-4 my-4">
+               <div class="card">
+                  <img class="card-img-top" src="https://heartlondon.files.wordpress.com/2015/02/white-lion-hotel-aldeburgh-brasserie-dining-1.jpg" alt="">
+                  <div class="card-body">
+                     <h4 class="card-title">alfalfa <span class="badge badge-secondary">€24.20</span></h4>
+                     <p class="card-text">Alfalfa  Medicago sativa also called lucerne, is a perennial flowering plant in the pea family Fabaceae cultivated as an important forage crop in many countries around the world. It is used for grazing, hay, and silage, as well as a green manure and cover crop. .</p>
+                  </div>
+                  <div class="card-footer">
+                     <a href="#" class="btn btn-success" onclick="placeorder()">Place my order</a>
+                  </div>
+               </div>
+            </div>
+            <div class="col-sm-4 my-4">
+               <div class="card">
+                  <img class="card-img-top" src="http://raleighcitizen.com/wp-content/uploads/2013/03/five-star-raleigh-nc-generals-chicken.jpg" alt="">
+                  <div class="card-body">
+                     <h4 class="card-title">almond <span class="badge badge-secondary">€28.20</span></h4>
+                     <p class="card-text">
+                        The almond (Prunus dulcis, syn. Prunus amygdalus) is a species of tree native to the Middle East, the Indian subcontinent and North Africa.
+                     </p>
+                  </div>
+                  <div class="card-footer">
+                     <a href="#" class="btn btn-success" onclick="placeorder()">Place my order</a>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <!-- rot start -->
+         <div class="row">
+            <div class="col-sm-4 my-4">
+               <div class="card">
+                  <img class="card-img-top" src="https://i.ytimg.com/vi/9VZc6EpFKRc/maxresdefault.jpg" alt="">
+                  <div class="card-body">
+                     <h4 class="card-title">Bruscetta <span class="badge badge-secondary">€32.20</span></h4>
+                     <p class="card-text">
+                        OK, it's just posh cheese on toast but it's worth the little extra effort. Most recipes for bruscetta (bruschetta) tell you to rub a little garlic on the bread for a subtle hint of garlic.
+                     </p>
+                  </div>
+                  <div class="card-footer">
+                     <a href="#" class="btn btn-success" onclick="placeorder()">Place my order</a>
+                  </div>
+               </div>
+            </div>
+            <div class="col-sm-4 my-4">
+               <div class="card">
+                  <img class="card-img-top" src="http://raleighcitizen.com/wp-content/uploads/2013/03/five-star-raleigh-nc-heat-seeker-shrimp.jpg" alt="">
+                  <div class="card-body">
+                     <h4 class="card-title">bagels <span class="badge badge-secondary">€34.20</span></h4>
+                     <p class="card-text">
+                        At its most basic, traditional bagel dough contains wheat flour (without germ or bran), salt, water, and yeast leavening. Bread flour or other high gluten flours are preferred to create the firm, dense but spongy bagel shape and 
+                     </p>
+                  </div>
+                  <div class="card-footer">
+                     <a href="#" class="btn btn-success" onclick="placeorder()">Place my order</a>
+                  </div>
+               </div>
+            </div>
+            <div class="col-sm-4 my-4">
+               <div class="card">
+                  <img class="card-img-top" src="https://mealmaintenance.files.wordpress.com/2011/11/dsc_0368.jpg" alt="">
+                  <div class="card-body">
+                     <h4 class="card-title">Cabbage <span class="badge badge-secondary">€26.20</span></h4>
+                     <p class="card-text">
+                        abbages are prepared in many different ways for eating. They can be pickled, fermented for dishes such as sauerkraut, steamed, stewed, sautéed, braised, or eaten raw. Cabbage is a good source of vitamin K, vitamin C and dietary fiber.
+                     </p>
+                  </div>
+                  <div class="card-footer">
+                     <a href="#" class="btn btn-success" onclick="placeorder()">Place my order</a>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <!-- row start -->
+         <div class="row">
+            <div class="col-sm-4 my-4">
+               <div class="card">
+                  <img class="card-img-top" src="https://eat24hours.com/files/cuisines/v4/thai.jpg?e24v=103?e24v=178?e24v=178" alt="">
+                  <div class="card-body">
+                     <h4 class="card-title">celery <span class="badge badge-secondary">€36.20</span></h4>
+                     <p class="card-text">
+                        Celery (Apium graveolens) is a marshland plant in the family Apiaceae that has been cultivated as a vegetable since antiquity. Celery has a long fibrous stalk tapering into leaves
+                     </p>
+                  </div>
+                  <div class="card-footer">
+                     <a href="#" class="btn btn-success" onclick="placeorder()">Place my order</a>
+                  </div>
+               </div>
+            </div>
+            <div class="col-sm-4 my-4">
+               <div class="card">
+                  <img class="card-img-top" src="http://www.melissahartfiel.com/wp-content/uploads/2013/04/20130426-1304_untitled0051.jpg" alt="">
+                  <div class="card-body">
+                     <h4 class="card-title">dumplings <span class="badge badge-secondary">€38.20</span></h4>
+                     <p class="card-text">
+                        Dumpling is a broad classification for a dish that consists of small pieces of dough (made from a variety of starch sources), often wrapped around a fillin
+                     </p>
+                  </div>
+                  <div class="card-footer">
+                     <a href="#" class="btn btn-success" onclick="placeorder()">Place my order</a>
+                  </div>
+               </div>
+            </div>
+            <div class="col-sm-4 my-4">
+               <div class="card">
+                  <img class="card-img-top" src="http://taguephoto.com/wp-content/uploads/2014/11/Restaurant-Food-Photography-07.jpg" alt="">
+                  <div class="card-body">
+                     <h4 class="card-title">falafel <span class="badge badge-secondary">€30.20</span></h4>
+                     <p class="card-text">
+                        Falafel or felafel is a deep-fried ball, doughnut or patty made from ground chickpeas, fava beans, or both.
+                     </p>
+                  </div>
+                  <div class="card-footer">
+                     <a href="#" class="btn btn-success" onclick="placeorder()">Place my order</a>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <!-- row end -->
+       
+      </div>
+      <!-- container end -->
+      <!-- Footer -->
+      <footer class="py-5 bg-dark">
+         <div class="container">
+            <p class="m-0 text-center text-white">Copyright &copy; casmia 2017</p>
+         </div>
+         <!-- footer -->
+      </footer>
+      <!-- Bootstrap core JavaScript -->
+      <script src="vendor/jquery/jquery.min.js"></script>
+      <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+      <script src="js/order.js"></script>
+      <script src="js/logout.js"></script>
+      <script>
+         if(sessionStorage.user){
+             €("#username").text(sessionStorage.user)
+             €(".loginuser").css("display","block");
+          
+         }
+      </script>
+   </body>
+</html>
